@@ -1,0 +1,63 @@
+
+label {
+   font-weight: bold;
+   color: white;
+}
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=password],
+textarea{
+    padding: 8px;
+    border:1px solid black;
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 2px;
+
+}
+.white_text
+{
+
+    color: white;
+}
+.space td{
+    padding-bottom: 20px;
+}
+select{
+    width: 150px;
+}
+.card{
+ 
+    padding: 20px;
+    height: 489px;
+    border-radius: 5px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: rgb(108, 4, 66);
+    
+}
+/* form{
+    padding: 20px;
+    height: 489px;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-right: 250px;
+    background-color: aqua;
+} */
+input[type="submit"]{
+    font-weight: bold;
+    background-color:pink;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 100px;
+    position: relative;
+    left: 150px;
+
+}
+input[type="submit"]:hover{
+    background-color: chocolate;
+
+}
+body{
+    background-color: brown;
+}
